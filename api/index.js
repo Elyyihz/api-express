@@ -52,8 +52,8 @@ sequelize.sync({ force: eraseDatabaseOnSync }).then(async () => {
 const createUsersWithMessages = async () => {
   await models.User.create(
     {
-      username: "rwieruch",
-      email: "rwieruch@email.com",
+      username: "elynne",
+      email: "elynne@email.com",
       messages: [
         {
           text: "Published the Road to learn React",
@@ -70,8 +70,8 @@ const createUsersWithMessages = async () => {
 
   await models.User.create(
     {
-      username: "ddavids",
-      email: "ddavids@email.com",
+      username: "caua",
+      email: "caua@email.com",
       messages: [
         {
           text: "Happy to release ...",
